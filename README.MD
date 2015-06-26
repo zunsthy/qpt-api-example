@@ -4,7 +4,7 @@ This is a script to upload torrents automatically when them complete downloading
 ## Prepare
 1. Install `nodejs` in your Windows
 2. Create work directory in 'Documents' folder and copy everything to it
-``C:\Users\%USERNAME%\Document\qptUpload``
+```C:\Users\%USERNAME%\Document\qptUpload```
 3. Install `npm` and get modules called `utorrent-api` and `qingyingpt-api`
 OR 
 copy the folder from GitHub to `node-modules` folder
@@ -15,7 +15,7 @@ copy the folder from GitHub to `node-modules` folder
 * Specify Listening Port 
 * Add Default Download Folder
 5. Configure utorrent `Settings->Advanced->RunProgram` Like this:
-``node C:\Users\%USERNAME%\Documents\qptUpload\qpt-ut.js %K %D %N %T %L %F``
+```node C:\Users\%USERNAME%\Documents\qptUpload\qpt-ut.js %K %D %N %T %L %F```
 
 ## Config
 1. `config.json` contains 2 part: utorrent client and qingyingpt api access
