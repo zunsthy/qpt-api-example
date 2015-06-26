@@ -1,0 +1,12 @@
+[
+	{"type": "regexp",
+	"s": "CODEX",
+	"t": "totheglory",
+	"details": "example"
+	},
+	{"type": "string",
+	"s": "Game.of.Thrones.S05",
+	"t": "pt.whu.edu.cn",
+	"details": "GoT"
+	}
+]
