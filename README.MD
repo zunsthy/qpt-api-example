@@ -7,7 +7,7 @@ This is a script to upload torrents automatically when them complete downloading
     `C:\Users\%USERNAME%\Document\qptUpload` 
 3. Install `npm` and get modules called `utorrent-api` and `qingyingpt-api`
 OR 
-copy the folder from GitHub to `node-modules` folder
+copy the folder from GitHub to `node-modules` folder<br />
 [qingyingpt-api](https://github.com/zunsthy/qpt-api) [utorrent-api](https://github.com/leeroybrun/node-utorrent-api)
 4. Configure utorrent `Settings->Advanced->WebUI` Like this:
     * Enable WebUI
@@ -19,7 +19,8 @@ copy the folder from GitHub to `node-modules` folder
 
 ## Config
 1. `config.json` contains 2 part: utorrent client and qingyingpt api access
-    * username password addr port - the same as utorrent settings
+    * username password addr port dir - the same as utorrent settings
+     <br />(dir - the utorrent's torrents default directory)
     * id hash key - the information from QingyingPT
 2. `prefix.json` contain the array which filters the entries and calls the templates
     * type - 'regexp' or 'string'
@@ -35,3 +36,8 @@ copy the folder from GitHub to `node-modules` folder
     * Line 6 - "description----"
     * Line 7~Fin - Description
 4. `preset\example` is an example for uploading game templates
+
+## NOTE
+* Replace `%USERNAME%` with `%USERNAME%` 
+* JSON files need `"` and `\`
+* `,` between array's items
